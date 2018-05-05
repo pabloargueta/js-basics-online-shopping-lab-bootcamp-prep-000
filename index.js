@@ -24,7 +24,8 @@ function viewCart() {
   }
   else {
     for(var i = 0; i < cart.length; i++) {
-      itemList.push(`${cart[i].itemName} at ${cart[i].itemPrice},`)
+      var tempString = `${cart[i].itemName} at ${cart[i].itemPrice},`
+      itemList.push()
     }
     
     return `In your cart, you have ${itemList}`;
