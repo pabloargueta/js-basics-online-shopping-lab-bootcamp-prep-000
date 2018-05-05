@@ -20,6 +20,9 @@ function viewCart() {
   if(cart[0] === undefined) {
     return "Your shopping cart is empty";
   }
+  else {
+    
+  }
 }
 
 function total() {
