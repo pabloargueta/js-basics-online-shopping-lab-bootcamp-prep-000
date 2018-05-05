@@ -18,12 +18,14 @@ function addToCart(item) {
 
 function viewCart() {
   
-  var statement = "";
+  var itemList = "";
   if(cart[0] === undefined) {
     return "Your shopping cart is empty";
   }
   else {
-    
+    for(var i = 0; i < cart.length; i++) {
+      itemList.push(`${cart[i].itemName} at ${cart[i].itemPrice}`)
+    }
   }
 }
 
