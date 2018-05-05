@@ -27,7 +27,7 @@ function viewCart() {
       itemList.push(`${cart[i].itemName} at ${cart[i].itemPrice},`)
     }
     
-    return `In your cart, you have ${itemList};
+    return `In your cart, you have ${itemList}`;
   }
 }
 
